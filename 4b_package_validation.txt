@@ -1,0 +1,8 @@
+Python 3.10.12 (main, Aug 15 2025, 14:32:43) [GCC 11.4.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import emotion_detection
+>>> from emotion_detection import emotion_detector
+>>> result = emotion_detector("I love this movie! It is amazing!")
+>>> print(result)
+{'anger': 0.0049991803, 'disgust': 0.004338237, 'fear': 0.0067971596, 'joy': 0.9901972, 'sadness': 0.019555407, 'dominant_emotion': 'joy'}
+>>> exit()
